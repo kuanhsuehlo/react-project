@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="inputKeyin">
+    <script>
+        let MYInput = document.querySelector('#inputKeyin');
+        // console.dir(myInput);
+        // change事件=> 內容異動後，離開時才會觸發
+        input.addEventListener('change', (e) => {
+            console.log(e.target.value);
+        })
+
+        // 內容異動時，即時觸發 => keyUp、keyDown、keyPress
+        myInput.addEventListener('keyUp', (e) => {
+            console.log(e.target.value);
+        })
+    </script>
+</body>
+
+</html>

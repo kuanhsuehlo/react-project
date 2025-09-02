@@ -1,0 +1,16 @@
+.wrap {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+}
+.slide{
+    max-width: 100vw;
+    height: 300px;
+}
+
+.slideImg{
+    max-width: 100%;
+    height: 100%;
+    /* background-image: url('./images/p3.jpg'); */
+    background-size: cover;
+}
